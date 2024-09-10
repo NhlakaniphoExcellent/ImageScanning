@@ -8,5 +8,6 @@ This application allows users to upload an image, which is then stored in Azure 
 * HTML
 * CSS
 * JavaScript
+* Asp.NET Core MVC
 * Azure Blob Storage
 * Azure Computer Vision AI 
