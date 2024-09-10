@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Upload an Image";
+}
+
+<h2 style="color: white;">Insert an image</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Message
+    </div>
+}
+
+<div style="background-color: navy; padding: 20px; border-radius: 10px;">
+    <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="image" style="color: white;">Choose a picture to upload:</label>
+            <input type="file" name="image" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-black" style="background-color: black; color: white;">Insert</button>
+    </form>
+
+    @if (ViewBag.ImageUrl != null)
+    {
+        <hr />
+        <h3 style="color: white;">Uploaded Image:</h3>
+        <img src="@ViewBag.ImageUrl" alt="Uploaded Image" style="max-width: 500px;" />
+
+        <h3 style="color: white;">Description:</h3>
+        <p style="color: white;">@ViewBag.Description</p>
+    }
+</div>
