@@ -6,7 +6,7 @@ This application lets users upload images, which are stored in Azure Blob Storag
 2. Image Stored in Azure: The image is saved in Azure Blob Storage.
 3. AI Analyzes Image: The Microsoft Cognitive Services' Computer Vision API analyzes the image and returns a textual description.
 4. Results Displayed: The AI-generated description is displayed to the user.
-5Caching: If the same image is uploaded again, the cached response is used.
+5. Caching: If the same image is uploaded again, the cached response is used.
 
 ## Ideal Audience
 This application is ideal for developers interested in integrating Azure Blob Storage and Microsoft Cognitive Services for image processing, businesses needing automated image analysis for content management or tagging, educators and students exploring AI-based image recognition, content creators looking to generate descriptions or alt text for images to improve accessibility, and researchers working in AI, computer vision, or machine learning who need a quick and efficient image analysis tool.
