@@ -3,7 +3,7 @@ This application lets users upload images, which are stored in Azure Blob Storag
 
 ## How It Works
 1. Upload an Image: Users upload an image through the web interface.
-2. mage Stored in Azure: The image is saved in Azure Blob Storage.
+2. Image Stored in Azure: The image is saved in Azure Blob Storage.
 3. AI Analyzes Image: The Microsoft Cognitive Services' Computer Vision API analyzes the image and returns a textual description.
 4. Results Displayed: The AI-generated description is displayed to the user.
 5Caching: If the same image is uploaded again, the cached response is used.
